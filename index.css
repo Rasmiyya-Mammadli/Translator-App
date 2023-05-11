@@ -1,0 +1,117 @@
+*{
+    font-family: sans-serif;
+}
+
+ body{
+    background-image: url('assets/p9mUO.jpg');
+    background-size: cover;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Define styles for the search input */
+input[type="text"] {
+    width:max-content;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Define styles for the search button */
+input[type="button"] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Define styles for the results container */
+.results {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #e2cfcf;
+    border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+    font-size: 18px;
+    gap: 25px;
+}
+.results div{
+    border-bottom:  1px solid rgb(168, 156, 156);
+}
+
+/* Define styles for the search info */
+.search-info {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Define styles for the word pronunciation */
+.pronunciation {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* Define styles for the audio player */
+audio {
+    margin-bottom: 10px;
+}
+
+/* Define styles for the definition, synonym, and antonym */
+.definition, .synonym, .antonym {
+    margin-bottom: 10px;
+}
+
+/* Define styles for the word not found message */
+.not-found {
+    text-align: center;
+    font-size: 24px;
+    color: #ff0000;
+}
+.translator{
+    margin: auto;
+}
+.translator h3{
+    font-size: 32px;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(251, 248, 248, 0.5);
+}
+
+ .search-info-text{
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+ }
+ .audioDiv{
+    display: flex;
+    gap: 35px;
+ }
+ .audio{
+    height: 20px;
+ }
+ .translator div :nth-child(1){
+    margin-left: 35px;
+ }
+ .search-input{
+    height: 40px;
+ }
